@@ -1,0 +1,46 @@
+.main {
+    color: #fff;
+}
+
+/* *********************************** */
+/* SECTION - HERO */
+/* *********************************** */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.2rem;
+    padding: 2.4rem 4.8rem;
+}
+
+.logo-container {
+    height: 5rem;
+}
+
+.logo-sm {
+    fill: #E50914;
+    height: 3.6rem;
+}
+
+.select {
+    background-color: transparent;
+    font-size: 2rem;
+    color: #fff;
+
+    padding: 0.8rem 1.6rem;
+    border-radius: .4rem;
+    margin-left: auto;
+}
+
+.section-hero {
+    background-image: linear-gradient(to right, 
+    rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("/assets/background/landing-hero-background.jpg");
+}
+
+.container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

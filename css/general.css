@@ -1,0 +1,134 @@
+/*
+
+- FONT SIZES (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+COLORS: 
+
+#E50914 -> Shades: #b70710
+
+BORDER-RADIUS: 
+
+Dimensions:
+container: max-width: 120rem
+
+
+*/
+
+@font-face {
+    font-family: "Netflix-sans";
+    src: url("/assets/fonts/NetflixSans_W_Md.woff2") format("truetype");
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Netflix-sans";
+    src: url("/assets/fonts/NetflixSans_W_Rg.woff2") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Netflix-sans", sans-serif;
+    font-weight: 500;
+}
+
+input {
+    font-family: "Netflix-sans", sans-serif;
+}
+
+.btn,
+.btn:visited,
+.btn:link {
+    background-color: #E50914;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 0.8rem 1.6rem;
+    border-radius: .4rem;
+}
+
+.btn--generic {
+    border: none;
+    padding: 1.6rem 2.4rem;
+}
+
+.btn--generic:hover {
+    background-color: #b70710;
+    cursor: pointer;
+}
+
+.container--sm {
+    max-width: 68rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.input-container {
+    display: flex;
+    background-color: blue;
+    width: 100%;
+}
+
+.input--generic {
+    padding: 1.6rem 1rem;
+    font-size: 1.6rem;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.heading--primary {
+    font-size: 4.8rem;
+    line-height: 1.2;
+}
+
+.heading--secondary {
+    font-size: 2.4rem;
+}
+
+.description {
+    font-size: 1.8rem;
+}
+
+/* *********************************** */
+/* Spacing */
+/* *********************************** */
+
+.padding-top--lg {
+    padding-top: 12rem;
+}
+
+.padding-bottom--lg {
+    padding-bottom: 12rem;
+}
+
+.margin-bottom--xs {
+    margin-bottom: 1.2rem;
+}
+
+.margin-bottom--sm {
+    margin-bottom: 2.4rem;
+}
