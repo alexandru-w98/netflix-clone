@@ -45,3 +45,84 @@
     align-items: center;
     text-align: center;
 }
+
+/* *********************************** */
+/* SECTION - FEATURES */
+/* *********************************** */
+
+.feature-container {
+    gap: 16rem;
+    padding: 0;
+}
+
+.feature-text {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-container {
+    position: relative;
+    height: 40rem;
+}
+
+.card-mask {
+    height: 100%;
+    position: relative;
+}
+
+.card-video-tv {
+    position: absolute;
+    top: 8.3rem;
+    left: 7rem;
+    width: 73%;
+}
+
+.card-image {
+    display: inline-block;
+    height: 90%;
+}
+
+.card-download-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    border: 0.3rem solid #222;
+    background-color: #000;
+    height: 10rem;
+    border-radius: 1.6rem;
+    padding: 1rem;
+    bottom: 15%;
+    left: 14%
+}
+
+.download-box-image {
+    height: 100%;
+}
+
+.card-download-heading {
+    font-weight: 700;
+}
+
+.card-download-description {
+    color: #0071eb;
+    font-size: 1.6rem;
+}
+
+.download-icon {
+    display: inline-block;
+    height: 6.4rem;
+    padding-left: 2.4rem;
+}
+
+.card-video-tv-smartphones {
+    position: absolute;
+    top: 4.35rem;
+    left: 10.1rem;
+    width: 61%;
+}
+
+.card-image-kids {
+    display: inline-block;
+    height: 100%;
+}
