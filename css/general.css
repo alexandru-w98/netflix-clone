@@ -10,7 +10,7 @@ COLORS:
 
 #E50914 -> Shades: #b70710
 #222
-#0071eb
+#303030
 
 Dimensions:
 container: max-width: 120rem
@@ -79,12 +79,12 @@ button {
 }
 
 .container--md {
-    max-width: 120rem;
+    max-width: 100rem;
     margin: 0 auto;
     padding: 0 3.2rem;
 }
 
-.container {
+.container--lg {
     max-width: 120rem;
     margin: 0 auto;
     padding: 0 3.2rem;
@@ -225,6 +225,10 @@ button {
     margin-top: 16rem;
 }
 
+.margin-top--md {
+    margin-top: 4.8rem;
+}
+
 /* *********************************** */
 /* Borders */
 /* *********************************** */
@@ -233,10 +237,36 @@ button {
     border-bottom: 1rem solid #222;
 }
 
+.no-border-radius {
+    border: none;
+}
+
+.no-border-radius--left {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
 /* *********************************** */
-/* Borders */
+/* Colors */
 /* *********************************** */
 
 .background--black {
     background-color: #000;
+}
+
+/* *********************************** */
+/* SVGs */
+/* *********************************** */
+
+.svg-white {
+    fill: #fff;
+}
+
+.svg-open, 
+.svg-closed {
+    height: 3rem;
+}
+
+.svg-closed {
+    transform: rotateZ(45deg);
 }

@@ -126,3 +126,30 @@
     display: inline-block;
     height: 100%;
 }
+
+/* *********************************** */
+/* SECTION - Section FAQ */
+/* *********************************** */
+
+.container-faq {
+    align-items: center;
+}
+
+.faq-list {
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    gap: 1rem;
+}
+
+.faq-list li {
+    background-color: #303030;
+    width: 100%;
+    font-weight: 500;
+    padding: 2.4rem 3.2rem;
+}
+
+.faq-item {
+    width: 100%;
+    justify-content: space-between;
+}
