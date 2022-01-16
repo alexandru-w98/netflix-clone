@@ -11,6 +11,7 @@ COLORS:
 #E50914 -> Shades: #b70710
 #222
 #303030
+#757575
 
 Dimensions:
 container: max-width: 120rem
@@ -66,6 +67,10 @@ button {
 
 .grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .grid--order-1 {
@@ -144,6 +149,10 @@ button {
     width: 100%;
 }
 
+.input-width--md {
+    width: 80%;
+}
+
 .input--generic {
     padding: 1.6rem 1rem;
     font-size: 1.6rem;
@@ -205,6 +214,10 @@ button {
     padding-bottom: 16rem;
 }
 
+.padding-bottom--md {
+    padding-bottom: 4.8rem;
+}
+
 .margin-bottom--xs {
     margin-bottom: 1.2rem;
 }
@@ -215,6 +228,10 @@ button {
 
 .margin-bottom--md {
     margin-bottom: 4.8rem;
+}
+
+.margin-bottom--lg {
+    margin-bottom: 16rem;
 }
 
 .margin-left--xs {
@@ -269,4 +286,13 @@ button {
 
 .svg-closed {
     transform: rotateZ(45deg);
+}
+
+/* *********************************** */
+/* Links */
+/* *********************************** */
+
+.no-default:visited,
+.no-default:link {
+    text-decoration: none;
 }
